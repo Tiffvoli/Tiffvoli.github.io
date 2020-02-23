@@ -1,0 +1,46 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+}
+
+#container {
+  margin: 1rem auto;
+  width: 100vw;
+  height: 10vw;
+  background-color: white;
+  padding: 1rem;
+}
+
+#color_harmony {
+  display: flex;
+  justify-content: center;
+}
+
+#color_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
+}
+
+#color_container > div {
+  width: 15%;
+  font-size: 125x;
+}
+
+.colour_box {
+  --color: white;
+  width: 100%;
+  height: 10vw;
+  background-color: var(--color);
+}
+
+.color_code_container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.colorcodes {
+  display: flex;
+}

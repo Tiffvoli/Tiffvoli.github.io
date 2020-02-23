@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colour Palette</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="color_picker_container">
+        <p>Select a color:</p>
+        <input type="color" name="colorpicker" id="colorpicker" />
+
+        <form id="color_harmony">
+          <div>
+            <input
+              type="radio"
+              id="analogous"
+              name="harmony"
+              value="analogous"
+              checked
+            />
+            <label for="analogous">Analogous</label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              id="monochromatic"
+              name="harmony"
+              value="monochromatic"
+            />
+            <label for="monochromatic">Monochromatic</label>
+          </div>
+
+          <div>
+            <input type="radio" id="triad" name="harmony" value="triad" />
+            <label for="triad">Triad</label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              id="complementary"
+              name="harmony"
+              value="complementary"
+            />
+            <label for="complementary">Complementary</label>
+          </div>
+
+          <div>
+            <input type="radio" id="compound" name="harmony" value="compound" />
+            <label for="compound">Compound</label>
+          </div>
+
+          <div>
+            <input type="radio" id="shades" name="harmony" value="shades" />
+            <label for="shades">Shades</label>
+          </div>
+        </form>
+      </div>
+      <div id="color_container">
+        <div id="color2">
+          <div class="colour_box"></div>
+          <div class="color_code_container">
+            <p class="hextext">HEX:</p>
+            <div class="colorcodes">
+              <p class="hexvalue">#34hdhe</p>
+            </div>
+            <p class="rgbtext">RGB:</p>
+            <div class="rgbvalues" class="colorcodes">
+              <p>
+                <span class="rValue">12</span>, <span class="gValue">312</span>,
+                <span class="bValue">312</span>
+              </p>
+            </div>
+            <p class="hsltext">HSL:</p>
+            <div class="hslvalues" class="colorcodes">
+              <p>
+                <span class="hValue">20</span>,
+                <span class="sValue">100</span>%,
+                <span class="lValue">12</span>%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="color3">
+          <div class="colour_box"></div>
+          <div class="color_code_container">
+            <p class="hextext">HEX:</p>
+            <div class="colorcodes">
+              <p class="hexvalue">#34hdhe</p>
+            </div>
+            <p class="rgbtext">RGB:</p>
+            <div class="rgbvalues" class="colorcodes">
+              <p>
+                <span class="rValue">12</span>, <span class="gValue">312</span>,
+                <span class="bValue">312</span>
+              </p>
+            </div>
+            <p class="hsltext">HSL:</p>
+            <div class="hslvalues" class="colorcodes">
+              <p>
+                <span class="hValue">20,</span>
+                <span class="sValue">100</span>%,
+                <span class="lValue">12</span>%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="color1">
+          <div class="colour_box"></div>
+          <div class="color_code_container">
+            <p class="hextext">HEX:</p>
+            <div class="colorcodes">
+              <p class="hexvalue">#34hdhe</p>
+            </div>
+            <p class="rgbtext">RGB:</p>
+            <div class="rgbvalues" class="colorcodes">
+              <p>
+                <span class="rValue">12</span>, <span class="gValue">312</span>,
+                <span class="bValue">312</span>
+              </p>
+            </div>
+            <p class="hsltext">HSL:</p>
+            <div class="hslvalues" class="colorcodes">
+              <p>
+                <span class="hValue">20,</span>
+                <span class="sValue">100</span>%,
+                <span class="lValue">12</span>%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="color4">
+          <div class="colour_box"></div>
+          <div class="color_code_container">
+            <p class="hextext">HEX:</p>
+            <div class="colorcodes">
+              <p class="hexvalue">#34hdhe</p>
+            </div>
+            <p class="rgbtext">RGB:</p>
+            <div class="rgbvalues" class="colorcodes">
+              <p>
+                <span class="rValue">12</span>, <span class="gValue">312</span>,
+                <span class="bValue">312</span>
+              </p>
+            </div>
+            <p class="hsltext">HSL:</p>
+            <div class="hslvalues" class="colorcodes">
+              <p>
+                <span class="hValue">20,</span>
+                <span class="sValue">100</span>%,
+                <span class="lValue">12</span>%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="color5">
+          <div class="colour_box"></div>
+          <div class="color_code_container">
+            <p class="hextext">HEX:</p>
+            <div class="colorcodes">
+              <p class="hexvalue">#34hdhe</p>
+            </div>
+            <p class="rgbtext">RGB:</p>
+            <div class="rgbvalues" class="colorcodes">
+              <p>
+                <span class="rValue">12</span>, <span class="gValue">312</span>,
+                <span class="bValue">312</span>
+              </p>
+            </div>
+            <p class="hsltext">HSL:</p>
+            <div class="hslvalues" class="colorcodes">
+              <p>
+                <span class="hValue">20,</span>
+                <span class="sValue">100</span>%,
+                <span class="lValue">12</span>%
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
